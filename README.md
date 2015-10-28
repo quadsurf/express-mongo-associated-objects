@@ -51,7 +51,7 @@ Here's what the view wants to look like:
     <ul>
       {{#each employers}}
         <li>
-          {{name}} ({{address.line1}}, {{address.cityZipZip}})
+          {{name}} ({{address.line1}}, {{address.cityStateZip}})
         </li>
       {{/each}}
     </ul>
@@ -226,7 +226,7 @@ Here's what the view code should look like:
     <ul>
       {{#each employers}}
         <li>
-          {{name}} ({{address.line1}}, {{address.cityZipZip}})
+          {{name}} ({{address.line1}}, {{address.cityStateZip}})
         </li>
       {{/each}}
     </ul>
